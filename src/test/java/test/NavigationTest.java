@@ -39,7 +39,7 @@ public class NavigationTest extends Base {
 	 String actualtitle = driver.getTitle();
 	 String expectedtitle="Facebook - log in or sign up";
 	 Assert.assertEquals(actualurl, expectedUrl);
-	 Assert.assertTrue(actualtitle.contains(expectedtitle), "Title is not correct");
+	 Assert.assertTrue(actualtitle.contains(expectedtitle), "Title is not correct" + actualurl);
   }
  
   @AfterClass

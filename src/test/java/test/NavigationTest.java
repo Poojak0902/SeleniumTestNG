@@ -40,6 +40,8 @@ public class NavigationTest extends Base {
 	 String expectedtitle="Facebook - log in or sign up";
 	 Assert.assertEquals(actualurl, expectedUrl);
 	 Assert.assertTrue(actualtitle.contains(expectedtitle), "Title is not correct" + actualurl);
+  System.out.println("I am pushing this fpr demo purposes only");
+  
   }
  
   @AfterClass
